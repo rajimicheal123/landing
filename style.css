@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
+
+.flex-container
+{
+    width: 1200px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo p
+{
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 90px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-logo
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: normal;
+    margin-top: 36px;
+    
+}
+
+.buy
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.buy ul
+{
+    margin-right: 270px ;
+    
+}
+
+#nav2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav2 li
+{
+    list-style: none;
+}
+
+#nav2 li a
+{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 200;
+    color: #EEEAEA;
+
+}
+
+.right-nav button
+{
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+#login a
+{
+    border: none;
+    margin: 20px ;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;}
+
+#login a
+{
+    text-decoration: none;
+}
+
+.nav-btn2
+{
+    border-radius: 8px;
+    padding: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 223, 252, 0.1);
+}
+
+.search-box input
+{
+    /* padding:7px 65px; */
+    padding: 10px 20px 10px 22px;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.search-box button
+{
+    background: linear-gradient(131.76deg, #F09A1A 35.84%, #F0BD69 73.59%);
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    /* margin-right: 7px; */
+}
+
+/* section 1 style */
+
+
+.sec1-cont
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header
+{
+    background-image: url(/images/bluenav-img.png); 
+
+}
+
+
+.sec1-left
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-text
+{
+    margin-left: 50px;
+}
+
+
+/* SECTION 2 */
+
+/* .section2
+{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .sec2-img1
+{
+    background-image: url(/images/Rectangle\ 798.png);
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 80px;
+} */
+
+/* .sec2-img1
+{
+    color: rgba(36, 34, 34, 0.9);
+    font-size: 18px;
+    font-weight: 600;
+    margin-right:25px ;
+} */
+
+.sec2-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2-header a
+{
+    margin-right: 50px;
+}
+
+.sec2-img
+{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
+}
+
+.sec2-img img 
+{
+    margin-right: -120px;
+}
+
+.icon p 
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px ;
+}
+
+.sec2-img1 ul
+{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-ev; */
+    /* margin: 15px 100px 0px 0px  ; */
+}
+
+.sec2-foot
+{
+    display: flex;
+    /* margin: 10px; */
+}
+
+.sec2-btn
+{
+    margin-left: 120px;
+    background: #232C7F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    /* padding: 4px; */
+    margin-left: 170px;
+}
+
+.blue
+{
+    color: #232C7F;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.yellow
+{
+    color:#FFAA00;
+    text-decoration-line: line-through;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+
+}
+
+
+/* SECTION 3 */
+
+.section3
+{
+    background: #F5FAFF;
+
+}
+
+.sec3-header
+{
+    display: flex;
+    justify-content: center;
+    color: #242222;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.sec3-body
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.sec3-text
+{
+    margin-top: 160px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:15px ;
+    color: #312D2D;
+}
+
+.sec3-text h2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #242222;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sec3-img
+{
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.sec3-btn
+{
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: #232C7F;
+    box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.04);
+    color:#FFFFFF; 
+    font-size:13px ;
+    font-family:source sans Pro ;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* SECTION 4 */
+.section4
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-text
+{
+    margin-top: 40px;
+}
+.sec4-text button
+{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background: #232C7F;
+    box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.04);
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+}
+
+
+/* SECTION 5 */
+
+.section5
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFBF8;
+}
+
+.sec5-img
+{
+    margin-top: -100px;
+}
+
+.sec5-text
+{
+    margin: 80px;
+    color: #312D2D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sec5-text button 
+{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #232C7F;
+    box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.04);
+    color: #FFFFFF;
+    /* font-size: 13px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* SECTION 6 */
+
+.sec6-text h2
+{
+    display: flex;
+    justify-content: center;
+    color: #242222;
+    font-size:27px ;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;}
+
+.sec6-text p
+{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;}
+
+.sec6-img
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 250px;
+    margin-top: 20px;
+}
+
+.sec6-img p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 45px;
+    color: #474540;
+}
+
+
+
+.lines
+{
+    /* border: 0.5px solid rgba(255, 199, 39, 0.5); */
+    width: 100px;
+    background: #FDC435;
+    height: 2px;
+    border-radius: 2px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 35px;
+
+}
+
+/* SECTION 7 */
+
+.section7
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    background: #FFFCF8;
+}
+
+.section7 button
+{
+    padding: 8px 10px;
+    border-radius: 10px;
+    color:#FFFFFF; ;
+    background: #232C7F;
+    border: 1px solid #232C7F;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    /* font-weight: ; */
+    /* font-size: 12px; */
+    line-height: 18px;
+}
+
+.sec7-text h2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #242222;
+
+}
+
+.sec7-text p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #474540;
+}
+
+
+/* SECTION 8 */
+
+.section8
+{
+    background: #F4F9FF;
+}
+
+.sec8-head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #242222;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sec8-head h5
+{
+    margin: 20px;
+}
+
+.sec8-text p
+{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 20px;
+    height: 50px;
+    color: #474540;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* FOOTER */
+
+footer
+{
+    background: #232C7F;
+    display: flex;
+    justify-content: center;
+
+}
+
+.foot-text
+{
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 150px;
+}
+
+
+.link-tags
+{
+    margin-top: 20px;
+}
